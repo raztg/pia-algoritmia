@@ -42,7 +42,7 @@ cd part2_ml
 pip install -r requirements.txt
 python hh_ml.py
 ```
-Lee `my_train.csv` y `my_test.csv` y escribe en `resultados/`. Metodología, resultados completos y limitaciones en `part2_ml/LEEME.md`.
+Lee `my_train.csv` y `my_test.csv` y escribe en `resultados/`. Metodología, resultados completos y limitaciones en `part2_ml/README.md`.
 
 ## Resumen de resultados
 - Balance de clases (500 instancias): hill climbing 68.2%, SA 19.2%, MST 12.6%.
