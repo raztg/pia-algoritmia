@@ -12,7 +12,7 @@ part1_tag/                 Parte 1: etiquetado (código en C y CSV etiquetados)
 hh_tsp_dataset/      Dataset provisto por el curso (instancias y características, sin etiquetas)
 part2_ml/                  Parte 2: Machine Learning (Python)
   hh_ml.py
-  my_train.csv, my_test.csv   (copias de PIA/)
+  my_train.csv, my_test.csv   (copias de part1_tag/)
   requirements.txt
   LEEME.md                    notas, resultados y limitaciones
   resultados/                 tablas, figuras y predicciones
