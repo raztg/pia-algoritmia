@@ -1,12 +1,10 @@
 # Parte 2 – Machine Learning (Hiper-heurística de selección para TSP)
 
-> Versión actualizada con las etiquetas corregidas de la parte 1 (`PIAPT1`: SA con T0 = 0.5 y MST con refinamiento).
-
 ## Contenido
 | Archivo | Qué es |
 |---|---|
 | `hh_ml.py` | Pipeline completo. `pip install -r requirements.txt` y luego `python hh_ml.py` (opciones: `--train`, `--test`, `--out`). Semilla fija (42). |
-| `my_train.csv`, `my_test.csv` | Etiquetas generadas por el programa en C (`PIA/`), sin modificar. |
+| `my_train.csv`, `my_test.csv` | Etiquetas generadas por el programa en C, sin modificar. |
 | `resultados/balance_clases.csv` | Balance de clases (total, train, test). |
 | `resultados/resultados_test.csv` | Accuracy, macro-F1, regret medio/máximo y % de instancias con regret 0, por modelo y baseline. |
 | `resultados/resumen.json` | Hiperparámetros, F1 de CV, matrices de confusión, reporte por clase, importancias, árbol (texto, profundidad ≤ 4). |
