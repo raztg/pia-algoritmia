@@ -1,0 +1,232 @@
+{
+ "baseline": {
+  "algoritmo": "hill_climbing_2opt",
+  "accuracy_test": 0.6778523489932886
+ },
+ "Árbol de Decisión": {
+  "mejores_hiperparametros": {
+   "m__class_weight": "None",
+   "m__max_depth": "None",
+   "m__min_samples_leaf": "1"
+  },
+  "cv_macroF1_train": 0.4840430766698642,
+  "cm_labels": [
+   "hill_climbing_2opt",
+   "simulated_annealing_2opt",
+   "mst_2opt"
+  ],
+  "matriz_confusion": [
+   [
+    78,
+    14,
+    9
+   ],
+   [
+    8,
+    12,
+    8
+   ],
+   [
+    11,
+    5,
+    4
+   ]
+  ],
+  "pred_counts": {
+   "hill_climbing_2opt": 97,
+   "simulated_annealing_2opt": 31,
+   "mst_2opt": 21
+  },
+  "reporte_por_clase": {
+   "hill_climbing_2opt": {
+    "precision": 0.8041237113402062,
+    "recall": 0.7722772277227723,
+    "f1-score": 0.7878787878787878,
+    "support": 101.0
+   },
+   "simulated_annealing_2opt": {
+    "precision": 0.3870967741935484,
+    "recall": 0.42857142857142855,
+    "f1-score": 0.4067796610169492,
+    "support": 28.0
+   },
+   "mst_2opt": {
+    "precision": 0.19047619047619047,
+    "recall": 0.2,
+    "f1-score": 0.1951219512195122,
+    "support": 20.0
+   },
+   "accuracy": 0.6308724832214765,
+   "macro avg": {
+    "precision": 0.46056555866998167,
+    "recall": 0.46694955209806693,
+    "f1-score": 0.4632601333717497,
+    "support": 149.0
+   },
+   "weighted avg": {
+    "precision": 0.6433874384718389,
+    "recall": 0.6308724832214765,
+    "f1-score": 0.6366981685142443,
+    "support": 149.0
+   }
+  }
+ },
+ "KNN": {
+  "mejores_hiperparametros": {
+   "m__n_neighbors": "3",
+   "m__weights": "distance"
+  },
+  "cv_macroF1_train": 0.42491812755605096,
+  "cm_labels": [
+   "hill_climbing_2opt",
+   "simulated_annealing_2opt",
+   "mst_2opt"
+  ],
+  "matriz_confusion": [
+   [
+    87,
+    8,
+    6
+   ],
+   [
+    15,
+    9,
+    4
+   ],
+   [
+    11,
+    7,
+    2
+   ]
+  ],
+  "pred_counts": {
+   "hill_climbing_2opt": 113,
+   "simulated_annealing_2opt": 24,
+   "mst_2opt": 12
+  },
+  "reporte_por_clase": {
+   "hill_climbing_2opt": {
+    "precision": 0.7699115044247787,
+    "recall": 0.8613861386138614,
+    "f1-score": 0.8130841121495327,
+    "support": 101.0
+   },
+   "simulated_annealing_2opt": {
+    "precision": 0.375,
+    "recall": 0.32142857142857145,
+    "f1-score": 0.34615384615384615,
+    "support": 28.0
+   },
+   "mst_2opt": {
+    "precision": 0.16666666666666666,
+    "recall": 0.1,
+    "f1-score": 0.125,
+    "support": 20.0
+   },
+   "accuracy": 0.6577181208053692,
+   "macro avg": {
+    "precision": 0.4371927236971485,
+    "recall": 0.42760490334747764,
+    "f1-score": 0.42807931943445965,
+    "support": 149.0
+   },
+   "weighted avg": {
+    "precision": 0.614727485102255,
+    "recall": 0.6577181208053692,
+    "f1-score": 0.6329785437544329,
+    "support": 149.0
+   }
+  }
+ },
+ "Random Forest": {
+  "mejores_hiperparametros": {
+   "m__class_weight": "balanced",
+   "m__max_depth": "None",
+   "m__min_samples_leaf": "3",
+   "m__n_estimators": "200"
+  },
+  "cv_macroF1_train": 0.446078334075957,
+  "cm_labels": [
+   "hill_climbing_2opt",
+   "simulated_annealing_2opt",
+   "mst_2opt"
+  ],
+  "matriz_confusion": [
+   [
+    63,
+    27,
+    11
+   ],
+   [
+    4,
+    18,
+    6
+   ],
+   [
+    5,
+    9,
+    6
+   ]
+  ],
+  "pred_counts": {
+   "hill_climbing_2opt": 72,
+   "simulated_annealing_2opt": 54,
+   "mst_2opt": 23
+  },
+  "reporte_por_clase": {
+   "hill_climbing_2opt": {
+    "precision": 0.875,
+    "recall": 0.6237623762376238,
+    "f1-score": 0.7283236994219653,
+    "support": 101.0
+   },
+   "simulated_annealing_2opt": {
+    "precision": 0.3333333333333333,
+    "recall": 0.6428571428571429,
+    "f1-score": 0.43902439024390244,
+    "support": 28.0
+   },
+   "mst_2opt": {
+    "precision": 0.2608695652173913,
+    "recall": 0.3,
+    "f1-score": 0.27906976744186046,
+    "support": 20.0
+   },
+   "accuracy": 0.5838926174496645,
+   "macro avg": {
+    "precision": 0.4897342995169082,
+    "recall": 0.5222065063649223,
+    "f1-score": 0.4821392857025761,
+    "support": 149.0
+   },
+   "weighted avg": {
+    "precision": 0.6907766754206789,
+    "recall": 0.5838926174496645,
+    "f1-score": 0.6136561873643287,
+    "support": 149.0
+   }
+  }
+ },
+ "modelo_elegido": "Árbol de Decisión",
+ "importancias": {
+  "tree_gini": {
+   "num__n": 0.1667,
+   "num__mean_pairwise_dist": 0.2972,
+   "num__std_coords": 0.1353,
+   "num__mean_centroid_dist": 0.127,
+   "num__mean_nn_dist": 0.2306,
+   "cat__distribution_border": 0.0431,
+   "cat__distribution_clustered": 0.0,
+   "cat__distribution_uniform": 0.0
+  },
+  "permutacion_Árbol de Decisión": {
+   "n": 0.1442,
+   "mean_pairwise_dist": 0.0333,
+   "std_coords": 0.0132,
+   "mean_centroid_dist": 0.0326,
+   "mean_nn_dist": 0.1026,
+   "distribution": -0.0268
+  }
+ },
+ "arbol_texto": "|--- num__n <= 50.00\n|   |--- cat__distribution_border <= 0.50\n|   |   |--- num__n <= 12.50\n|   |   |   |--- num__mean_centroid_dist <= 0.08\n|   |   |   |   |--- class: hill_climbing_2opt\n|   |   |   |--- num__mean_centroid_dist >  0.08\n|   |   |   |   |--- num__mean_nn_dist <= 0.06\n|   |   |   |   |   |--- truncated branch of depth 2\n|   |   |   |   |--- num__mean_nn_dist >  0.06\n|   |   |   |   |   |--- truncated branch of depth 11\n|   |   |--- num__n >  12.50\n|   |   |   |--- num__mean_nn_dist <= 0.03\n|   |   |   |   |--- num__mean_centroid_dist <= 0.08\n|   |   |   |   |   |--- truncated branch of depth 2\n|   |   |   |   |--- num__mean_centroid_dist >  0.08\n|   |   |   |   |   |--- truncated branch of depth 3\n|   |   |   |--- num__mean_nn_dist >  0.03\n|   |   |   |   |--- num__mean_nn_dist <= 0.03\n|   |   |   |   |   |--- class: simulated_annealing_2opt\n|   |   |   |   |--- num__mean_nn_dist >  0.03\n|   |   |   |   |   |--- truncated branch of depth 11\n|   |--- cat__distribution_border >  0.50\n|   |   |--- num__mean_nn_dist <= 0.06\n|   |   |   |--- num__mean_nn_dist <= 0.05\n|   |   |   |   |--- class: simulated_annealing_2opt\n|   |   |   |--- num__mean_nn_dist >  0.05\n|   |   |   |   |--- class: mst_2opt\n|   |   |--- num__mean_nn_dist >  0.06\n|   |   |   |--- num__mean_pairwise_dist <= 0.69\n|   |   |   |   |--- num__mean_centroid_dist <= 0.52\n|   |   |   |   |   |--- truncated branch of depth 4\n|   |   |   |   |--- num__mean_centroid_dist >  0.52\n|   |   |   |   |   |--- class: mst_2opt\n|   |   |   |--- num__mean_pairwise_dist >  0.69\n|   |   |   |   |--- num__mean_pairwise_dist <= 0.71\n|   |   |   |   |   |--- truncated branch of depth 4\n|   |   |   |   |--- num__mean_pairwise_dist >  0.71\n|   |   |   |   |   |--- truncated branch of depth 3\n|--- num__n >  50.00\n|   |--- num__mean_nn_dist <= 0.07\n|   |   |--- num__n <= 70.00\n|   |   |   |--- num__mean_centroid_dist <= 0.27\n|   |   |   |   |--- num__std_coords <= 0.16\n|   |   |   |   |   |--- truncated branch of depth 3\n|   |   |   |   |--- num__std_coords >  0.16\n|   |   |   |   |   |--- class: mst_2opt\n|   |   |   |--- num__mean_centroid_dist >  0.27\n|   |   |   |   |--- num__mean_pairwise_dist <= 0.69\n|   |   |   |   |   |--- class: hill_climbing_2opt\n|   |   |   |   |--- num__mean_pairwise_dist >  0.69\n|   |   |   |   |   |--- truncated branch of depth 2\n|   |   |--- num__n >  70.00\n|   |   |   |--- num__mean_pairwise_dist <= 0.69\n|   |   |   |   |--- class: hill_climbing_2opt\n|   |   |   |--- num__mean_pairwise_dist >  0.69\n|   |   |   |   |--- num__mean_centroid_dist <= 0.53\n|   |   |   |   |   |--- class: mst_2opt\n|   |   |   |   |--- num__mean_centroid_dist >  0.53\n|   |   |   |   |   |--- class: hill_climbing_2opt\n|   |--- num__mean_nn_dist >  0.07\n|   |   |--- num__mean_pairwise_dist <= 0.53\n|   |   |   |--- num__std_coords <= 0.28\n|   |   |   |   |--- class: hill_climbing_2opt\n|   |   |   |--- num__std_coords >  0.28\n|   |   |   |   |--- num__std_coords <= 0.28\n|   |   |   |   |   |--- class: mst_2opt\n|   |   |   |   |--- num__std_coords >  0.28\n|   |   |   |   |   |--- class: hill_climbing_2opt\n|   |   |--- num__mean_pairwise_dist >  0.53\n|   |   |   |--- class: simulated_annealing_2opt\n"
+}

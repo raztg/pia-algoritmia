@@ -1,0 +1,4 @@
+best_algorithm,total,train,test,total_%
+hill_climbing_2opt,341,240,101,68.2
+simulated_annealing_2opt,96,68,28,19.2
+mst_2opt,63,43,20,12.6
